@@ -1,0 +1,10 @@
+<sample name="Hello World!" test="this is a test" xmlns:a="http://technodrom.scravy.de/0/author">
+
+	<title>This is the title</title>
+
+	<sample test="something" a:author="Julian Fleischer">Test</sample>
+	<sample num="11-7-6">Another Test</sample>
+
+	<name>THAT’S A NAME</name>
+
+</sample>

@@ -1,0 +1,14 @@
+*.jar
+*.pdf
+*.zip
+*.tar.gz
+.svn
+.DS_Store
+/www/*.htm
+/bin
+/lib
+/doc
+/.project
+/.settings
+/.classpath
+/target

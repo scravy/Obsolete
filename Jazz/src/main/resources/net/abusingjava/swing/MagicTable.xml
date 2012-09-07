@@ -1,0 +1,27 @@
+<window min-width="300" min-height="200" width="900" height="400">
+
+
+	<panel>
+	
+		<vbox>
+		
+			<combobox name="combobox" auto-complete="true" />
+			
+			<hbox>
+				<table column-control-visible="true" name="table" width="2*">
+					
+					<col type="string">Vorname</col>skyp
+					<col type="string">Nachname</col>
+					<col type="int" max-width="100px">Alter</col>
+					
+				</table>
+				<multilist name="multilist" />
+				<list name="list" />
+			</hbox>
+		
+		</vbox>
+	
+	</panel>
+
+
+</window>

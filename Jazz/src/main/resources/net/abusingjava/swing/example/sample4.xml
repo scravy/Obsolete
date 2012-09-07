@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE magic PUBLIC "-//abusingjava.net//net.abusingjava.swing.MagicPanel//EN" "../magic.dtd">
+<magic>
+
+	<style>
+		<label text-align="center" />
+		<textfield height="27px" />
+		<checkbox height="25px" />
+	</style>
+
+	<hbox>
+		<vbox width="150px">
+			<label height="50px">top-left</label>
+			<button>left</button>
+			<label height="50px" text-align="left">bottom-left</label>
+		</vbox>
+		<vbox>
+			<label height="50px">top</label>
+			<hbox>
+				<flexi-space />
+					<vbox width="300px">
+						<flexi-space />
+						<textfield>1</textfield>
+						<textfield>2</textfield>
+						<textfield>3</textfield>
+						<flexi-space height="27px" />
+						<hbox height="27px">
+							<flexi-space />
+							<button background="0x009900" foreground="white" width="100px" height="27px">OK</button>
+							<button background="0x990000" foreground="white" width="100px" height="27px">Abbruch</button>
+						</hbox>
+						<flexi-space />
+					</vbox>
+				<flexi-space />
+			</hbox>
+			<label height="50px">bottom</label>
+		</vbox>
+		<vbox width="200px">
+			<label height="50px">top-right</label>
+			<vbox>
+				<checkbox>Option 1</checkbox>
+				<checkbox>Option 2</checkbox>
+				<checkbox>Option 3</checkbox>
+				<flexi-space />
+			</vbox>
+			<label height="50px">bottom-right</label>
+		</vbox>
+	</hbox>
+
+</magic>

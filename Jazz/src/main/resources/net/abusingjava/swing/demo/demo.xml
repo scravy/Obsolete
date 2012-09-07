@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<magic>
+
+	<style>
+		<vbox width="*" />
+		<hbox height="*" />
+		<flexi-space width="*" height="*" />
+	</style>
+
+	<hbox>
+		<flexi-space />
+		<vbox>
+			<flexi-space />
+			<flexi-space />
+		</vbox>
+		<flexi-space />
+	</hbox>
+
+</magic>

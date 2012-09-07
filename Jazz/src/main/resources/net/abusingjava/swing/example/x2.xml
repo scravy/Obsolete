@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE magic PUBLIC "-//abusingjava.net//net.abusingjava.swing.MagicPanel//EN" "../magic.dtd">
+<magic>
+
+	<style>
+		<vbox height="*" width="*" />
+		<hbox height="*" width="*" />
+	
+		<datepicker
+			height="27px" />
+	
+		<password height="27px" />
+	
+		<button
+			height="27px" />
+			
+		<textfield
+			height="27px" />
+		
+		<combobox
+			height="27px" />
+		
+		<label
+			height="27px" />
+			
+		<checkbox
+			height="22px" />
+		
+		<table
+			height="100px" min-width="200px" />
+		
+		<class
+			name="title"
+			font-weight="bold"
+			height="32px"
+			vertical-alignment="center" />
+		
+		<class
+			name="leftLabel"
+			width="120px" />
+		
+		<class
+			name="phoneButton"
+			width="1*" />
+		
+		<class
+			name="phoneNumber"
+			width="3*" />
+			
+		<class
+			name="eMailAddress"
+			width="4*" />
+			
+		<class
+			name="eMailAddressMargin"
+			width="3*" />
+		
+		<class
+			name="vMargin"
+			height="5px" />
+		
+		<class
+			name="hMargin"
+			width="10px"
+			height="*" />
+		
+		<class
+			name="autoHeight"
+			height="auto" />
+			
+		<class
+			name="freeSpace" />
+	</style>
+
+	<hbox>
+		<vbox>
+			<flexi-space />
+			<combobox autocomplete="true">
+				<val>Frankreich</val>
+				<val>Franzäsisch Guinea</val>
+			</combobox>
+			<flexi-space />
+		</vbox>
+		<vbox>
+			<panes height="*" width="*">
+				<pane>
+					<title>THis is a title</title>
+					<vbox>
+						<hbox>
+							<button>Thingies</button>
+							<button>Thingies</button>
+						</hbox>
+						<button>Thingie</button>
+					</vbox>
+				</pane>
+				<pane>
+					<title>THis is a title</title>
+					<vbox>
+						<hbox>
+							<button>Thingies</button>
+							<button>Thingies</button>
+						</hbox>
+						<button>Thingie</button>
+					</vbox>
+				</pane>
+				<pane expanded="true">
+					<title>THis is a title</title>
+					<vbox>
+						<hbox>
+							<button>Thingies</button>
+							<button>Thingies</button>
+						</hbox>
+						<button>Thingie</button>
+					</vbox>
+				</pane>
+				<pane>
+					<title>THis is a title</title>
+					<vbox>
+						<hbox>
+							<button>Thingies</button>
+							<button>Thingies</button>
+						</hbox>
+						<button>Thingie</button>
+					</vbox>
+				</pane>
+			</panes>
+		</vbox>
+	</hbox>
+	
+</magic>

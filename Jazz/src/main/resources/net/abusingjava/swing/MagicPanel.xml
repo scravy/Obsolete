@@ -1,0 +1,7 @@
+<window min-width="300" min-height="200" width="600" height="400">
+	<panel>
+	    <box>
+	        <label x="50%" y="50%" width="200px" height="50px" font-size="30px">Hello World!</label>
+	    </box>
+	</panel>
+</window>

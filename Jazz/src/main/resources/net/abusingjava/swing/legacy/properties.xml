@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties xmlns="http://technodrom.scravy.de/2011/magic-properties">
+	<width default="*" />
+	<height default="*" />
+	<min-width />
+	<min-height />
+	<text-align default="left">label</text-align>
+	<vertical-alignment default="center">label</vertical-alignment>
+	<foreground />
+	<background />
+	<sortable>table</sortable>
+	<grid-color>table</grid-color>
+	<min>numeric</min>
+	<max>numeric</max>
+	<step>numeric</step>
+	<value>numeric</value>
+	<font-weight>label</font-weight>
+	<font-style>label</font-style>
+	<font-size>label</font-size>
+	<sorted>combobox,select</sorted>
+	<autocomplete>combobox,select</autocomplete>
+	<from>combobox,select</from>
+	<validator>textfield</validator>
+	<action>button</action>
+	<onaction>button,textfield,password,datepicker,combobox</onaction>
+	
+	<onmouseover />
+	<onmouseout />
+	<onmousemove />
+	<onmousewheel />
+	<onclick />
+	<onkeydown />
+	<onkeyup />
+	<onkeypress />
+	<onfocus />
+	<onblur />
+</properties>

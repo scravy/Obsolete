@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -windowtitle 'AbusingSwing (1.0-SNAPSHOT, 2011-08-28)'" author="false" classpath="/Users/scravy/.m2/repository/org/swinglabs/swing-worker/1.1/swing-worker-1.1.jar:/Users/scravy/.m2/repository/net/java/dev/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1.jar:../AbusingJava/target/classes:/Users/scravy/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar:/Users/scravy/.m2/repository/org/swinglabs/swingx/1.6.1/swingx-1.6.1.jar:/Users/scravy/.m2/repository/net/java/balloontip/balloontip/1.2.1/balloontip-1.2.1.jar" destdir="doc" doctitle="AbusingSwing (1.0-SNAPSHOT, 2011-08-28)" nodeprecated="true" nodeprecatedlist="true" noindex="false" nonavbar="false" notree="false" packagenames="net.abusingjava.swing" source="1.6" sourcepath="src/main/resources:src/main/java" splitindex="false" use="true" version="false">
+            <link href="http://download.oracle.com/javase/6/docs/api/"/>
+        </javadoc>
+    </target>
+</project>

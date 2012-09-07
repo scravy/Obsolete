@@ -1,0 +1,190 @@
+<!ELEMENT magic (title?,style?,groups?,binding*,(hbox|vbox))>
+
+<!ENTITY % box-content "hbox|vbox|flexi-space|tabs|panes|button|table|label|textfield|numeric|textarea|checkbox|combobox|select|date|datepicker|password">
+<!ENTITY % bool "true|false">
+<!ENTITY % event-attributes "
+	onmouseover  CDATA #IMPLIED
+	onmouseout   CDATA #IMPLIED
+	onmousemove  CDATA #IMPLIED
+	onmousewheel CDATA #IMPLIED
+	onkeypress   CDATA #IMPLIED
+	onkeydown    CDATA #IMPLIED
+	onkeyup      CDATA #IMPLIED
+	onfocus      CDATA #IMPLIED
+	onblur       CDATA #IMPLIED
+">
+<!ENTITY % common-attributes "
+	class       CDATA #IMPLIED
+	name        CDATA #IMPLIED
+	
+	width       CDATA #IMPLIED
+	height      CDATA #IMPLIED
+	
+	min-width   CDATA #IMPLIED
+	min-height  CDATA #IMPLIED
+	
+	background  CDATA  #IMPLIED
+	foreground  CDATA  #IMPLIED
+	
+	border      CDATA  #IMPLIED
+	opaque      (%bool;) #IMPLIED
+	
+	text-align	       (left|right|center) #IMPLIED
+	vertical-alignment (top|bottom|center) #IMPLIED
+	font-weight        (bold|normal)       #IMPLIED
+	font-style         (italic|normal)     #IMPLIED
+	font-size          CDATA               #IMPLIED
+	
+	requires-permission CDATA #IMPLIED
+	group NMTOKENS #IMPLIED
+">
+<!ENTITY % validator-attributes "
+	validator   CDATA #IMPLIED
+">
+<!ENTITY % box-attributes "
+	width       CDATA #IMPLIED
+	height      CDATA #IMPLIED
+	
+	class       CDATA #IMPLIED
+	name        CDATA #IMPLIED
+">
+
+<!ELEMENT style (%box-content;|class)*>
+<!ELEMENT class (%box-content;)*>
+<!ATTLIST class
+	%common-attributes;
+>
+
+<!ELEMENT hbox (%box-content;)*>
+<!ATTLIST hbox
+	%box-attributes;
+>
+<!ELEMENT vbox (%box-content;)*>
+<!ATTLIST vbox
+	%box-attributes;
+>
+
+<!ELEMENT flexi-space EMPTY>
+<!ATTLIST flexi-space
+	%common-attributes;
+>
+
+<!ELEMENT numeric (#PCDATA)*>
+<!ATTLIST numeric
+	%common-attributes;
+	min  CDATA #IMPLIED
+	max  CDATA #IMPLIED
+	step CDATA #IMPLIED
+>
+
+<!ELEMENT checkbox (#PCDATA)*>
+<!ATTLIST checkbox
+	%common-attributes;
+>
+
+<!ELEMENT textfield (#PCDATA)*>
+<!ATTLIST textfield
+	%common-attributes;
+	%validator-attributes;
+	%event-attributes;
+>
+
+<!ELEMENT textarea (#PCDATA)*>
+<!ATTLIST textarea
+	%common-attributes;
+	%event-attributes;
+>
+
+<!ELEMENT date (#PCDATA)*>
+<!ATTLIST date
+	%common-attributes;
+>
+<!ELEMENT datepicker (#PCDATA)*>
+<!ATTLIST datepicker
+	%common-attributes;
+	%event-attributes;
+	onaction	CDATA	#IMPLIED
+>
+
+<!ELEMENT combobox (val*)>
+<!ATTLIST combobox
+	%common-attributes;
+	onaction	CDATA	#IMPLIED
+	sorted (%bool;) #IMPLIED
+	autocomplete (%bool;) #IMPLIED
+	from CDATA #IMPLIED
+>
+<!ELEMENT val (#PCDATA)*>
+<!ATTLIST val
+	selected (%bool;) #IMPLIED
+>
+
+<!ELEMENT table (col*)>
+<!ATTLIST table
+	%common-attributes;
+	sortable (%bool;)  #IMPLIED
+	grid-color CDATA   #IMPLIED
+	ondblclick CDATA   #IMPLIED
+>
+<!ELEMENT col (#PCDATA)*>
+<!ATTLIST col
+	type	CDATA	#REQUIRED
+	min-width CDATA #IMPLIED
+	max-width CDATA #IMPLIED
+>
+	
+
+<!ELEMENT label (#PCDATA)*>
+<!ATTLIST label
+	%common-attributes;
+>
+
+<!ELEMENT button (#PCDATA)*>
+<!ATTLIST button
+	%common-attributes;
+	action    CDATA    #IMPLIED
+	onaction    CDATA    #IMPLIED
+>
+
+<!ELEMENT password (#PCDATA)*>
+<!ATTLIST password
+	%common-attributes;
+	onaction    CDATA    #IMPLIED
+>
+
+<!ELEMENT title (#PCDATA)*>
+
+<!ELEMENT tabs (tab+)>
+<!ELEMENT tab (title,(hbox|vbox))>
+<!ATTLIST tabs
+	%common-attributes;
+>
+
+<!ELEMENT panes (pane+)>
+<!ATTLIST panes
+	%common-attributes;
+>
+<!ELEMENT pane (title,(hbox|vbox))>
+<!ATTLIST pane
+	expanded (true|false) #IMPLIED
+	animated (true|false) #IMPLIED
+>
+
+<!ELEMENT groups (group+)>
+<!ELEMENT group (elem*)>
+<!ATTLIST group
+	name	CDATA	#REQUIRED
+	requires-permission	CDATA #IMPLIED 
+>
+<!ELEMENT elem (#PCDATA)*>
+
+<!ELEMENT binding (prop*)>
+<!ATTLIST binding
+	class	CDATA	#REQUIRED
+>
+<!ELEMENT prop EMPTY>
+<!ATTLIST prop
+	name	CDATA	#REQUIRED
+	component	CDATA	#REQUIRED
+>
+

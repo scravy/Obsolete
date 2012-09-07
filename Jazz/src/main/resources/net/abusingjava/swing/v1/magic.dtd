@@ -1,0 +1,26 @@
+<!ELEMENT window (title?,panel)>
+<!ATTLIST window
+	min-width CDATA #IMPLIED
+	min-height CDATA #IMPLIED
+	width CDATA #IMPLIED
+	height CDATA #IMPLIED
+	max-width CDATA #IMPLIED
+	max-height CDATA #IMPLIED
+>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT panel ()>
+<!ATTLIST panel
+	
+>
+
+<!ELEMENT cards (card+)>
+<!ATTLIST
+	xml:id ID #IMPLIED
+>
+
+<!ELEMENT tabs (tab+)>
+
+<!ELEMENT tab (hbox|vbox)>
+

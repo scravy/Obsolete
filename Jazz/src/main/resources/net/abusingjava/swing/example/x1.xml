@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE magic PUBLIC "-//abusingjava.net//net.abusingjava.swing.MagicPanel//EN" "../magic.dtd">
+<magic>
+
+	<style>
+		<vbox height="*" width="*" />
+		<hbox height="*" width="*" />
+	
+		<datepicker
+			height="27px" />
+	
+		<button
+			height="27px" />
+			
+		<textfield
+			height="27px" />
+		
+		<combobox
+			height="27px" />
+		
+		<label
+			height="27px" />
+			
+		<checkbox
+			height="22px" />
+		
+		<table
+			height="100px" min-width="200px" />
+		
+		<class
+			name="title"
+			font-weight="bold"
+			height="32px"
+			vertical-alignment="center" />
+		
+		<class
+			name="leftLabel"
+			width="120px" />
+		
+		<class
+			name="phoneButton"
+			width="1*" />
+		
+		<class
+			name="phoneNumber"
+			width="3*" />
+			
+		<class
+			name="eMailAddress"
+			width="4*" />
+			
+		<class
+			name="eMailAddressMargin"
+			width="3*" />
+		
+		<class
+			name="vMargin"
+			height="5px" />
+		
+		<class
+			name="hMargin"
+			width="10px"
+			height="*" />
+		
+		<class
+			name="autoHeight"
+			height="auto" />
+			
+		<class
+			name="freeSpace" />
+	</style>
+
+	<vbox>
+		<hbox height="autoHeight">
+			<flexi-space class="hMargin" />
+			<label font-size="20px" height="40px">Bürger Lars Dietrich, Kd.Nr. #234798</label>
+		</hbox>
+		
+		<hbox>
+			<flexi-space class="hMargin" />
+			<!-- LINKE SEITE -->
+			<vbox width="450px">
+				<vbox class="autoHeight">
+			
+				<table height="200px" name="tabelle">
+					<col max-width="30" type="java.lang.Boolean">?</col>
+					<col type="string">StriNG</col>
+				</table>
+			
+				<button name="just" onaction="doIt">JUSTdoIT</button>
+			
+				<label class="title">Persönliche Bewerberdaten</label>
+				<hbox>
+					<label class="leftLabel">Name, Vorname</label>
+					<textfield name="nachname" validator="dfv.klient.validators.TextFieldValidator"></textfield>
+					<textfield name="vorname"></textfield>
+					<combobox width="60px" from="net.abusingjava.swing.example.Gender" />
+				</hbox>
+				<hbox>
+					<label class="leftLabel">Straße</label>
+					<textfield></textfield>
+				</hbox>
+				<hbox>
+					<label class="leftLabel">PLZ, Ort, Land</label>
+					<textfield width="70px" validator="net.abusingjava.swing.example.PLZValidator"></textfield>
+					<textfield width="1*"></textfield>
+					<combobox width="1*" sorted="true" from="net.abusingjava.swing.example.Nations">
+						<val>Lichtenstein</val>
+						<val>Schweiz</val>
+						<val selected="true">Deutschland</val>
+						<val>Finnland</val>
+						<val>Norwegen</val>
+						<val>Russland</val>
+						<val>Weißrussland</val>
+						<val>Lettland</val>
+						<val>Estland</val>
+						<val>Litauen</val>
+						<val>Schweden</val>
+						<val>Vereinigtes Königreich</val>
+						<val>Italien</val>
+						<val>Österreich</val>
+						<val>Tschechien</val>
+						<val>Slowenien</val>
+						<val>Slowakei</val>
+						<val>Andorra</val>
+						<val>Spanien</val>
+						<val>Kroatien</val>
+						<val>Albanien</val>
+						<val>Zypern</val>
+						<val>Mazedonien</val>
+						<val>Türkei</val>
+						<val>Bulgarien</val>
+						<val>Ungarn</val>
+						<val>Ukraine</val>
+						<val>Kasachstan</val>
+						<val>China</val>
+						<val>Indien</val>
+						<val>Ägypten</val>
+						<val>Vereinigte Staaten</val>
+						<val>Mexiko</val>
+						<val>Kanada</val>
+						<val>Irland</val>
+						<val>Dänemark</val>
+						<val>Island</val>
+						<val>Polen</val>
+					</combobox>
+				</hbox>
+				<hbox>
+					<label class="leftLabel">Geburtsdatum</label>
+					<datepicker width="4*" />
+					<label width="3*" text-align="center">23 Jahre alt</label>
+				</hbox>
+				<flexi-space class="vMargin" />
+				<label class="title">Kontaktdaten</label>
+				<hbox>
+					<button action="net.abusingjava.swing.example.ButtonAction" class="phoneButton">T1</button>
+					<textfield class="phoneNumber"></textfield>
+					<button class="phoneButton">T2</button>
+					<textfield class="phoneNumber"></textfield>
+				</hbox>
+				<hbox>
+					<button class="phoneButton">H1</button>
+					<textfield class="phoneNumber"></textfield>
+					<button class="phoneButton">H2</button>
+					<textfield class="phoneNumber"></textfield>
+				</hbox>
+				<hbox>
+					<button class="phoneButton">Fax1</button>
+					<textfield class="phoneNumber"></textfield>
+					<button class="phoneButton">Fax2</button>
+					<textfield class="phoneNumber"></textfield>
+				</hbox>
+				<flexi-space class="vMargin" />
+				<hbox>
+					<button class="phoneButton">Mail</button>
+					<textfield class="eMailAddress"></textfield>
+					<flexi-space class="eMailAddressMargin" />
+				</hbox>
+				<hbox>
+					<button class="phoneButton">Mail</button>
+					<textfield class="eMailAddress"></textfield>
+					<flexi-space class="eMailAddressMargin" />
+				</hbox>
+				<flexi-space class="vMargin" />
+				
+				<label class="title">Profil</label>
+				<hbox>
+					
+				</hbox>
+				
+				</vbox>
+				<flexi-space class="freeSpace" />
+			</vbox>
+			
+			<flexi-space class="hMargin" />
+			
+			<flexi-space background="gray" width="1px" />
+			
+			<!-- RECHTE SEITE -->
+			<flexi-space class="hMargin" />
+			<vbox>
+				<vbox class="autoHeight">
+			
+				<label class="title">DFV</label>
+				<hbox>
+					<label>Vertrag</label>
+					<combobox width="2*">
+						<val>-</val>
+						<val>1. Rate</val>
+						<val>2. Rate</val>
+						<val>SZ</val>
+					</combobox>
+					<flexi-space />
+					<label>Gültig bis</label>
+					<datepicker width="2*" />
+					<flexi-space />
+				</hbox>
+				
+				<flexi-space class="vMargin" />
+				<label class="title">Eingereichte Unterlagen</label>
+				<hbox>
+					<vbox>
+						<checkbox name="lebenslauf">Lebenslauf</checkbox>
+						<checkbox>Personalbogen</checkbox>
+						<checkbox>Arbeitszeugnis</checkbox>
+					</vbox>
+					<vbox>
+						<checkbox>Gültiger W.</checkbox>
+						<checkbox>Qualif. Nachweis</checkbox>
+						<checkbox>Gültiger VGS</checkbox>
+					</vbox>
+					<vbox>
+						<checkbox>Ticket</checkbox>
+						<checkbox>Nochmal</checkbox>
+						<checkbox>OK</checkbox>
+					</vbox>
+				</hbox>
+				
+				<flexi-space class="vMargin" />
+				<hbox>
+					<vbox>
+						<label class="title">Bewerbungskommentar</label>
+						<textarea height="200px">Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+	
+	Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+	
+	Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</textarea>
+				
+					</vbox>
+					<vbox>
+						<label class="title">Tätigkeiten</label>
+						<textarea height="200px"></textarea>
+					</vbox>
+				</hbox>
+				<hbox>
+					<vbox>
+						<label class="title">Berufe</label>
+						<table sortable="true">
+							<col type="String">Beruf</col>
+							<col type="Date">Von</col>
+							<col type="Date">Bis</col>
+						</table>
+					</vbox>
+					<vbox>
+						<label class="title">Ausbildungen</label>
+						<table>
+							<col type="String">Ausbildung</col>
+							<col type="Date">Von</col>
+							<col type="Date">Bis</col>
+						</table>
+					</vbox>
+				</hbox>
+				
+				<flexi-space class="vMargin" />
+				
+				<flexi-space background="red" />
+				
+				</vbox>
+				<flexi-space class="freeSpace" />
+			</vbox>
+			
+			<flexi-space class="hMargin" />
+		</hbox>
+	</vbox>
+
+
+</magic>

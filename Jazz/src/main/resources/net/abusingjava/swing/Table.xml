@@ -1,0 +1,65 @@
+<window width="800" height="400" title="Title of this window">
+	<menu-bar>
+		<menu title="File">
+			<menu title="Open Recent">
+				<item title="Mantel des Schweigens" />
+				<item title="Wizengamoth" />
+			</menu>	
+			<item title="Close" />
+		</menu>
+		<menu title="Edit">
+			<item title="Cut" />
+			<item title="Copy" />
+			<item title="Paste" />
+		</menu>
+	</menu-bar>
+
+	<panel>
+		<style>
+			<rule match="hbox" height="intrinsic" />
+			<rule match="textfield" />
+		</style>
+	
+		<menu name="x">
+			<item title="Item" />
+			<menu title="A Title">
+				<item title="TITLE" />
+				<item title="Art of the TITLE" />
+			</menu>
+		</menu>
+	
+		<hbox>
+			<tabs>
+				<tab title="First Tab">
+					<hbox name="main">
+						<vbox>
+							<hbox>
+								<textfield name="field1" filters="#table(Name1,Name2)" popup-menu="x" />
+							</hbox>
+							<table editable="true" name="table" filter-mode="or">
+								<col type="string" min-width="50px" max-width="50px">Kürzel</col>
+								<col type="string">Name1</col>
+								<col type="string">Name2</col>
+							</table>
+						</vbox>
+						<vbox width="180px">
+							<textfield filters="#sluggy" name="textfield" />
+							<multilist name="sluggy" />
+						</vbox>
+					</hbox>
+				</tab>
+				<tab title="Another Tab" closeable="true" onclose="close">
+					<hbox>
+						
+					</hbox>
+				</tab>
+				<tab title="Yet Another Tab" closeable="true">
+					<hbox>
+						
+					</hbox>
+				</tab>
+			</tabs>
+		</hbox>
+
+	</panel>
+</window>

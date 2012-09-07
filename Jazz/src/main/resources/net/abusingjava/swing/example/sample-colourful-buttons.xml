@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE magic SYSTEM "../magic.dtd">
+<magic>
+
+	<style>
+		<button height="27px" />
+	</style>
+
+	<hbox>
+		<vbox>
+			<flexi-space />
+		</vbox>
+	
+		<vbox width="200px">
+			<flexi-space />
+			<button background="0x000000" />
+			<button background="0xFFFFFF" />
+			<button background="0xCC00CC" />
+			<button background="0xCC0000" />
+			<button background="0x0099FF" />
+			<button background="0x33CC33" />
+			<button background="0xFF9900" />
+			<button background="0xFFCC00" />
+			<button background="0x663399" />
+			<button background="0x3333CC" />
+			<flexi-space />
+		</vbox>
+
+		<vbox>
+			<flexi-space />
+		</vbox>
+	</hbox>
+
+</magic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE magic SYSTEM "../magic.dtd">
+<magic>
+
+	<style>
+		
+	</style>
+	
+	<hbox>
+		<vbox>
+			<flexi-space background="red" />
+			<flexi-space background="blue" />
+		</vbox>
+		<vbox>
+			<flexi-space background="green" />
+			<flexi-space background="yellow" />
+		</vbox>
+	</hbox>
+	
+</magic>

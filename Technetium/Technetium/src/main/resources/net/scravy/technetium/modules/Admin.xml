@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE module>
+<module name="Admin">
+
+	<handlers>
+
+		<handler path="/admin" handler="net.scravy.technetium.modules.admin.Index" />
+		<handler path="/admin/users" handler="net.scravy.technetium.modules.admin.Users" />
+
+	</handlers>
+
+</module>

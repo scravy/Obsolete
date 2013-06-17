@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+
+	<persistence-unit name="technetium" transaction-type="RESOURCE_LOCAL">
+	
+		<class>net.scravy.technetium.domain.Building</class>
+		<class>net.scravy.technetium.domain.Course</class>
+		<class>net.scravy.technetium.domain.CourseAttribute</class>
+		<class>net.scravy.technetium.domain.CourseAttributeTemplate</class>
+		<class>net.scravy.technetium.domain.CourseBlog</class>
+		<class>net.scravy.technetium.domain.CourseGrading</class>
+		<class>net.scravy.technetium.domain.CoursePage</class>
+		<class>net.scravy.technetium.domain.CoursePagePermission</class>
+		<class>net.scravy.technetium.domain.CourseUnit</class>
+		<class>net.scravy.technetium.domain.CourseUnitGroup</class>
+		<class>net.scravy.technetium.domain.CourseUnitType</class>
+		<class>net.scravy.technetium.domain.Day</class>
+		<class>net.scravy.technetium.domain.Department</class>
+		<class>net.scravy.technetium.domain.Fixture</class>
+		<class>net.scravy.technetium.domain.Language</class>
+		<class>net.scravy.technetium.domain.LocalizedString</class>
+		<class>net.scravy.technetium.domain.LocalizedText</class>
+		<class>net.scravy.technetium.domain.Message</class>
+		<class>net.scravy.technetium.domain.Nation</class>
+		<class>net.scravy.technetium.domain.Person</class>
+		<class>net.scravy.technetium.domain.PersonAttribute</class>
+		<class>net.scravy.technetium.domain.PersonAttributeTemplate</class>
+		<class>net.scravy.technetium.domain.PersonBlog</class>
+		<class>net.scravy.technetium.domain.PersonPage</class>
+		<class>net.scravy.technetium.domain.PersonPagePermission</class>
+		<class>net.scravy.technetium.domain.Privilege</class>
+		<class>net.scravy.technetium.domain.Program</class>
+		<class>net.scravy.technetium.domain.Room</class>
+		<class>net.scravy.technetium.domain.RoomAttribute</class>
+		<class>net.scravy.technetium.domain.RoomAttributeTemplate</class>
+		<class>net.scravy.technetium.domain.TimeSlot</class>
+		<class>net.scravy.technetium.domain.TimeZone</class>
+		
+	</persistence-unit>
+	
+</persistence>

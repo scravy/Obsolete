@@ -1,0 +1,5 @@
+javax.persistence.jdbc.driver=org.apache.derby.jdbc.EmbeddedDriver
+javax.persistence.jdbc.url=jdbc:derby:database
+javax.persistence.jdbc.user=technetium
+javax.persistence.jdbc.password=xxx
+technetium.transformers.pool=net.scravy.weblet.transform.CachingTransformerPool

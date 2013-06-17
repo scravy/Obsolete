@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE technetium>
+<technetium>
+
+	<weblet name="technetium" defaultHandler="net.scravy.technetium.DefaultHandler">
+
+		<handlers>
+			<handler path="/" handler="net.scravy.technetium.modules.Start" />
+			<handler path="*.js" handler="net.scravy.technetium.js.JS" />
+			<handler path="*.css" handler="net.scravy.technetium.css.CSS" />
+			<handler path="*.png" handler="net.scravy.technetium.images.PNG" />
+			<handler path="*.jpg" handler="net.scravy.technetium.images.JPG" />
+			<handler path="*.gif" handler="net.scravy.technetium.images.GIF" />
+		</handlers>
+
+		<modules>
+			<module descriptor="net/scravy/technetium/modules/Admin.xml" />
+			<module descriptor="net/scravy/technetium/modules/Auth.xml" />
+			<module descriptor="net/scravy/technetium/modules/Showcase.xml" />
+			<module descriptor="net/scravy/technetium/modules/Sysinfo.xml" />
+		</modules>
+
+	</weblet>
+
+</technetium>

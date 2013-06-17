@@ -1,0 +1,5 @@
+javax.persistence.jdbc.driver=com.mysql.jdbc.Driver
+javax.persistence.jdbc.url=jdbc:mysql://localhost/technetium?zeroDateTimeBehavior=convertToNull
+javax.persistence.jdbc.user=technetium
+javax.persistence.jdbc.password=xxx
+technetium.transformers.pool=net.scravy.weblet.transform.CachingTransformerPool

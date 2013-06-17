@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE module>
+<module name="Sysinfo">
+	<handlers>
+		<handler path="/sysinfo/engines"
+			script="/net/scravy/technetium/modules/sysinfo/engines.py" />
+		<handler path="/sysinfo/handlers"
+			script="/net/scravy/technetium/modules/sysinfo/handlers.py" />
+		<handler path="/sysinfo/domain"
+			script="/net/scravy/technetium/modules/sysinfo/domain.py" />
+	</handlers>
+</module>

@@ -1,0 +1,15 @@
+javax.persistence.jdbc.driver=com.mysql.jdbc.Driver
+javax.persistence.jdbc.password=
+javax.persistence.jdbc.url=jdbc\:mysql\://localhost/technetium?zeroDateTimeBehavior\=convertToNull
+javax.persistence.jdbc.user=technetium
+technetium.resources.css.dir=net/scravy/technetium/css
+technetium.resources.js.dir=net/scravy/technetium/js
+technetium.resources.gif.dir=net/scravy/technetium/images
+technetium.resources.png.dir=net/scravy/technetium/images
+technetium.resources.jpg.dir=net/scravy/technetium/images
+technetium.scriptloader.precompile=false
+technetium.standalone.loglevel=INFO
+technetium.templates.dir=net/scravy/technetium/xsl
+technetium.templates.master.dir=net/scravy/technetium/xsl/master
+technetium.templates.master.template=master.xsl
+technetium.transformers.pool=net.scravy.weblet.transform.DevelopmentTransformerPool

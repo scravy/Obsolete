@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE module>
+<module name="Showcase">
+	<handlers>
+		<handler path="/showcase/nestedExceptions"
+			handler="net.scravy.technetium.modules.showcase.NestedExceptions" />
+		<handler path="/showcase/ruby"
+			script="/net/scravy/technetium/modules/showcase/dyn-ruby.rb" />
+		<handler path="/showcase/python"
+			script="/net/scravy/technetium/modules/showcase/dyn-python.py" />
+		<handler path="/showcase/javascript"
+			script="/net/scravy/technetium/modules/showcase/dyn-javascript.js" />
+		<handler path="/showcase/groovy"
+			script="/net/scravy/technetium/modules/showcase/dyn-groovy.groovy" />
+		<handler path="/showcase/clojure"
+			script="/net/scravy/technetium/modules/showcase/dyn-clojure.clj" />
+
+		<handler path="/showcase/simpleForm"
+			handler="net.scravy.technetium.modules.showcase.SimpleForm" />
+
+	</handlers>
+
+	<forms>
+		<form name="simpleForm" handler="net.scravy.technetium.modules.showcase.SimpleForm"
+			order="firstName lastName loginName age">
+
+			<field name="firstName"
+				converter="net.scravy.technetium.modules.showcase.SimpleForm$StringSanitizer"
+				validator="net.scravy.technetium.modules.showcase.SimpleForm$NameValidator" />
+
+			<field name="lastName"
+				converter="net.scravy.technetium.modules.showcase.SimpleForm$StringSanitizer"
+				validator="net.scravy.technetium.modules.showcase.SimpleForm$NameValidator" />
+
+			<field name="age" javaType="int" min="18" />
+			<field name="loginName" ajaxValidator="true" />
+		</form>
+	</forms>
+</module>

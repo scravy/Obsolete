@@ -1,0 +1,3 @@
+firstName,lastName,loginName,displayName,email,password
+Random J.,Hacker,admin,R. J. Hacker,admin@localhost,$2a$10$GRSqG9rQjg65UzgCLGNHduFOuIUVs8/3Gbcp0WBnqrQY7EOLtcI8G
+John,Doe,john.doe,Johnny,john.doe@example.net,$2a$10$T8MOtUT0TQkaH975Y9QokOJfB9mtxtkLaHOQqhJeuI1h5kTE1gWDG

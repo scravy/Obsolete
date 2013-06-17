@@ -1,0 +1,8 @@
+(c) 2012 Julian Fleischer
+
+Permission is granted to VIEW, STUDY and DISTRIBUTE the source, and the source
+only. You are NOT allowed to actually USE any runnable programs derived from
+the source nor are you used to REUSE any parts of the source.
+
+Feel free to contact the author and ask for permission for any of the
+forbidden fruits from above.

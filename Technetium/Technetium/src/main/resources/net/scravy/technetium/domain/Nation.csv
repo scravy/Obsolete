@@ -1,0 +1,208 @@
+id,isoCode,shortDe,longDe
+1,ABC,Abchasien,Republik Abchasien
+2,AFG,Afghanistan,Islamische Republik Afghanistan
+3,EGY,Ägypten,Arabische Republik Ägypten
+4,ALB,Albanien,Republik Albanien
+5,DZA,Algerien,Demokratische Volksrepublik Algerien
+6,AND,Andorra,Fürstentum Andorra
+7,AGO,Angola,Republik Angola
+8,ATG,Antigua und Barbuda,Antigua und Barbuda
+9,GNQ,Äquatorialguinea,Republik Äquatorialguinea
+10,ARG,Argentinien,Argentinische Republik
+11,ARM,Armenien,Armenische Republik
+12,AZE,Aserbaidschan,Republik Aserbaidschan
+13,ETH,Äthiopien,Demokratische Bundesrepublik Äthiopien
+14,AUS,Australien,Commonwealth von Australien
+15,BHS,Bahamas,Commonwealth der Bahamas
+16,BHR,Bahrain,Königreich Bahrain
+17,BGD,Bangladesch,Volksrepublik Bangladesch
+18,BRB,Barbadaos,Barbados
+19,BEL,Belgien,Königreich Belgien
+20,BLZ,Belize,Belize
+21,BEN,Benin,Republik Benin
+22,XBK,Bergkarabach,Republik Bergkarabach
+23,BTN,Bhutan,Königreich Bhutan
+24,BOL,Bolivien,Plurinationaler Staat Bolivien
+25,BIH,Bosnien und Herzegowina,Bosnien und Herzegowina
+26,BWA,Botsuana,Republik Botsuana
+27,BRA,Brasilien,Föderative Republik Brasilien
+28,BRN,Brunei,Brunei Darussalam
+29,BGR,Bulgarien,Republik Bulgarien
+30,BFA,Burkina Faso,Burkina Faso
+31,BDI,Burundi,Republik Burundi
+32,CHL,Chile,Republik Chile
+33,TWN,Republik China,Republik China
+34,CHN,China,Volksrepublik China
+35,COK,Cookinseln,Cookinseln
+36,CRI,Costa Rica,Republik Costa Rica
+37,DNK,Dänemark,Königreich Dänemark
+38,DEU,Deutschland,Bundesrepublik Deutschland
+39,DMA,Domonica,Commonwealth Dominica
+40,DOM,Dominikanische Republik,Dominikanische Republik
+41,DJI,Dschibuti,Republik Dschibuti
+42,ECU,Ecuador,Republik Ecuador
+43,SLV,El Salvador,Republik El Salvador
+44,CIV,Elfenbeinküste,Republik Côte d'Ivoire
+45,ERI,Eritrea,Staat Eritrea
+46,EST,Estland,Republik Estland
+47,FJI,Fidschi,Republik Fischi
+48,FIN,Finnland,Republik Finnland
+49,FRA,Frankreich,Französische Republik
+50,GAB,Gabun,Gabunische Republik
+51,GMB,Gambia,Republik Gambia
+52,GEO,Georgien,Georgien
+53,GHA,Ghana,Republik Ghana
+54,GRD,Grenada,Grenada
+55,GRC,Griechenland,Hellenische Republik
+56,GTM,Guatemala,Republik Guatemala
+57,GIN,Guinea,Republik Guinea
+58,GNB,Guinea-Bissau,Republik Guinea-Bissau
+59,GUY,Guyana,Kooperative Republik Guyana
+60,HTI,Haiti,Republik Haiti
+61,HND,Honduras,Republik Honduras
+62,IND,Indien,Republik Indien
+63,IDN,Indonesien,Republik Indonesien
+64,IRQ,Irak,Republik Irak
+65,IRN,Iran,Islamische Republik Iran
+66,IRL,Irland,Irland
+67,ISL,Island,Republik Island
+68,ISR,Israel,Staat Israel
+69,ITA,Italien,Italienische Republik
+70,JAM,Jamaika,Jamaika
+71,JPN,Japan,Japan
+72,YEM,Jemen,Republik Jemen
+73,JOR,Jordanien,Haschemitisches Königreich Jordanien
+74,KHM,Kambodscha,Königreich Kambodscha
+75,CMR,Kamerun,Republik Kamerun
+76,CAN,Kanada,Kanada
+77,CPV,Kap Verde,Republik Kap Verde
+78,KAZ,Kasachstan,Republik Kasachstan
+79,QAT,Katar,Staat Katar
+80,KEN,Kenia,Republik Kenia
+81,KGZ,Kirgisistan,Kirgisische Republik
+82,KIR,Kiribati,Republik Kiribati
+83,COL,Kolumbien,Republik Kolumbien
+84,COM,Komoren,Union der Komoren
+85,COD,Demokratische Republik Kongo,Demokratische Republik Kongo
+86,COG,Republik Kongo,Republik Kongo
+87,PRK,Nordkorea,Demokratische Volksrepublik Korea
+88,KOR,Südkorea,Republik Korea
+89,XXK,Kosovo,Republik Kosovo
+90,HRV,Kroatien,Republik Kroatien
+91,CUB,Kuba,Republik Kuba
+92,KWT,Kuwait,Staat Kuwait
+93,LAO,Laos,Demokratische Volksrepublik Laos
+94,LSO,Lesotho,Königreich Lesotho
+95,LVA,Lettland,Republik Lettland
+96,LBN,Libanon,Libanesische Republik
+97,LBR,Liberia,Republik Liberia
+98,LBY,Libyen,Sozialistische Libysch-Arabische Volks-Dschamahirija
+99,LIE,Liechtenstein,Fürstentum Liechtenstein
+100,LTU,Litauen,Republik Litauen
+101,LUX,Luxemburg,Großherzogtum Luxemburg
+102,MDG,Madagaskar,Republik Madagaskar
+103,MWI,Malawi,Republik Malawi
+104,MYS,Malaysia,Malaysia
+105,MDV,Malediven,Republik Malediven
+106,MLI,Mali,Republik Mali
+107,MLT,Malta,Republik Malta
+108,MAR,Marokko,Königreich Marokko
+109,MHL,Marshallinseln,Republik Marshallinseln
+110,MRT,Mauretanien,Islamische Republik Mauretanien
+111,MUS,Mauritius,Republik Mauritius
+112,MKD,Mazedonien,Ehemalige jugoslawische Republik Mazedonien
+113,MEX,Mexiko,Vereinigte Mexikanische Staaten
+114,FSM,Mikronesien,Föderierte Staaten von Mikronesien
+115,MDA,Moldawien,Republik Moldau
+116,MCO,Monaco,Fürstentum Monaco
+117,MNG,Mongolei,Mongolei
+118,MNE,Montenegro,Montenegro
+119,MOZ,Mosambik,Republik Mosambik
+120,MMR,Myanmar,Union Myanmar
+121,NAM,Namibia,Republik Namibia
+122,NRU,Nauru,Republik Nauru
+123,NPL,Nepal,Demokratische Bundesrepublik Nepal
+124,NZL,Neuseeland,Neuseeland
+125,NIC,Nicaragua,Republik Nicaragua
+126,NLD,Niederlande,Königreich der Niederlande
+127,NER,Niger,Republik Niger
+128,NGA,Nigeria,Bundesrepublik Nigeria
+129,NIU,Niue,Niue
+130,XNC,Nordzypern,Türkische Republik Nordzypern
+131,NOR,Norwegen,Königreich Norwegen
+132,OMN,Oman,Sultanat Oman
+133,AUT,Österreich,Republik Österreich
+134,TLS,Osttimor,Demokratische Republik Timor-Leste
+135,PAK,Pakistan,Islamische Republik Pakistan
+136,PSE,Palästina,Palästinensische Autonomiegebiete
+137,PLW,Palau,Republik Palau
+138,PAN,Panama,Republik Panama
+139,PNG,Papua-Neuguinea,Unabhängiger Staat Papua-Neuguinea
+140,PRY,Paraguay,Republik Paraguay
+141,PER,Peru,Republik Peru
+142,PHL,Philippinen,Republik der Philippinen
+143,POL,Polen,Republik Polen
+144,PRT,Portugal,Portugiesische Republik
+145,RWA,Ruanda,Republik Ruanda
+146,ROU,Rumänien,Rumänien
+147,RUS,Russland,Russische Föderation
+148,SLB,Salomonen,Salomonen
+149,ZMB,Sambia,Republik Sambia
+150,WSM,Samoa,Unabhängiger Staat Samoa
+151,SMR,San Marino,San Marino
+152,STP,São Tomé und Príncipe,Demokratische Republik São Tomé und Príncipe
+153,SAU,Saudi-Arabien,Königreich Saudi-Arabien
+154,SWE,Schweden,Königreich Schweden
+155,CHE,Schweiz,Schweizerische Eidgenossenschaft
+156,SEN,Senegal,Republik Senegal
+157,SRB,Serbien,Republik Serbien
+158,SYC,Seychellen,Republik Seychellen
+159,SLE,Sierra Leone,Republik Sierra Leone
+160,ZWE,Simbabwe,Republik Simbabwe
+161,SGP,Singapur,Republik Singapur
+162,SVK,Slowakei,Slowakische Republik
+163,SVN,Slowenien,Republik Slowenien
+164,SOM,Somalia,Republik Somalia
+165,XSL,Somaliland,Republik Somaliland
+166,ESP,Spanien,Königreich Spanien
+167,LKA,Sri Lanka,Demokratische Sozialistische Republik Sri Lanka
+168,KNA,St. Kitts und Nevis,Föderation St. Kitts und Nevis
+169,LCA,St. Lucia,St. Lucia
+170,VCT,St. Vincent und die Grenadinen,St. Vincent und die Grenadinen
+171,ZAF,Südafrika,Republik Südafrika
+172,SDN,Sudan,Republik Sudan
+173,SOS,Südossetien,Südossetien
+174,xSS,Südsudan,Republik Südsudan
+175,SUR,Suriname,Republik Suriname
+176,SWZ,Swasiland,Königreich Swasiland
+177,SYR,Syrien,Arabische Republik Syrien
+178,TJK,Tadschikistan,Republik Tadschikistan
+179,TZA,Tansania,Vereinigte Republik Tansania
+180,THA,Thailand,Königreich Thailand
+181,TGO,Togo,Republik Togo
+182,TON,Tonga,Königreich Tonga
+183,XTN,Transnistrien,Transnistrische Moldauische Republik
+184,TTO,Trinidad und Tobago,Republik Trinidad und Tobago
+185,TCD,Tschad,Republik Tschad
+186,CZE,Tschechien,Tschechische Republik
+187,TUN,Tunesien,Tunesische Republik
+188,TUR,Türkei,Republik Türkei
+189,TKM,Turkmenistan,Turkmenistan
+190,TUV,Tuvalu,Tuvalu
+191,UGA,Uganda,Republik Uganda
+192,UKR,Ukraine,Ukraine
+193,HUN,Ungarn,Republik Ungarn
+194,URY,Uruguay,Republik Östlich des Uruguay
+195,UZB,Usbekistan,Republik Usbekistan
+196,VUT,Vanuatua,Republik Vanuatua
+197,VAT,Vatikanstadt,Staat Vatikanstadt
+198,VEN,Venezuela,Bolivarische Republik Venezuela
+199,ARE,Vereinigte Arabische Emirate,Vereinigte Arabische Emirate
+200,USA,Vereinigte Staaten,Vereinigte Staaten von Amerika
+201,GBR,Vereinigtes Königreich,Vereinigtes Königreich Großbritannien und Nordirland
+202,VNM,Vietnam,Sozialistische Republik Vietnam
+203,BLR,Weißrussland,Republik Belarus
+204,ESH,Westsahara,Demokratische Arabische Republik Sahara
+205,CAF,Zentralafrikanische Republik,Zentralafrikanische Republik
+206,CYP,Zypern,Republik Zypern
+

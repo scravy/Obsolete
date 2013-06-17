@@ -1,0 +1,5 @@
+javax.persistence.jdbc.driver=org.postgresql.Driver
+javax.persistence.jdbc.url=jdbc:postgresql://localhost/technetium
+javax.persistence.jdbc.user=technetium
+javax.persistence.jdbc.password=xxx
+technetium.transformers.pool=net.scravy.weblet.transform.CachingTransformerPool

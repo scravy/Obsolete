@@ -1,0 +1,213 @@
+id,isoCode,nameDe
+1,ABQ,Abasinisch,null
+2,ADY,Adygeisch,null
+3,AFR,Afrikaans,null
+4,SQI,Albanisch,null
+5,ALN,Gegisch,Albanisch
+6,AAT,Arvanitika,Albanisch
+7,ALS,Toskisch,Albanisch
+8,AAE,Arbëresh,Albanisch
+9,AMH,Amharisch,null
+10,ARA,Arabisch,null
+11,OCI,Aranesisch / Okzitanisch / Gascognisch,null
+12,HYE,Aramenisch,null
+13,AZE,Aserbaidschanisch / Aseri,null
+14,AZJ,Nordaserbaidschanisch,Aserbaidschanisch / Aseri
+15,AZB,Südaserbaidschanisch,Aserbaidschanisch / Aseri
+16,ASM,Assamesisch,null
+17,AVA,Awarisch,null
+18,AYM,Aymara,null
+19,AYC,Süd-Aymara,null
+20,AYR,Zentral-Aymara,null
+21,KRC,Balkarisch,null
+22,EUS,Baskisch,null
+23,BAK,Baschkirisch,null
+24,BEN,Bengalisch,null
+25,MYA,Birmanisch,null
+26,BIS,Bislama,null
+27,BRX,Bodo,null
+28,BUL,Bulgarisch,null
+29,SLA,Burgenlandkoratisch,null
+30,BUR,Burjatisch,null
+31,BXU,Burjatisch (chinesisch),Burjatisch
+32,BXM,Burjatisch (mongolisch),Burjatisch
+33,BXR,Burjatisch (russisch),Burjatisch
+34,KJH,Chakassisch,null
+35,NYA,Chichewa,null
+36,ZHO,Chinesisch,null
+37,CMN,Mandarin-Chinesisch,Chinesisch
+38,GAN,Gan-Chinesisch,Chinesisch
+39,HAK,Hakka-Chinesisch,Chinesisch
+40,CZH,Huizhou-Chinesisch,Chinesisch
+41,CJY,Jinyu-Chinesisch,Chinesisch
+42,LZH,Schrift-Chinesisch,Chinesisch
+43,MNP,Min-Bei-Chinesisch,Chinesisch
+44,CDO,Min-Dong-Chinesisch,Chinesisch
+45,NAN,Min-Nan-Chinesisch,Chinesisch
+46,CZO,Min-Zhong-Chinesisch,Chinesisch
+47,CPX,Pu-Xian-Chinesisch,Chinesisch
+48,WUU,Wu-Chinesisch,Chinesisch
+49,HSN,Xiang-Chinesisch,Chinesisch
+50,YUE,Yue-Chinesisch,Chinesisch
+51,RAR,Cook Island Maori / Raratongaisch,null
+52,DAN,Dänisch,null
+53,DEU,Deutsch,null
+54,DIV,Dhivehi,null
+55,DOI,Dogri / Kangri,null
+56,DGO,Dogri,Dogri / Kangri
+57,XNR,Kangri,Dogri / Kangri
+58,DZO,Dzongkha,null
+59,BIN,Edo / Bini,null
+60,END,Englisch,null
+61,EST,Estnisch,null
+62,FAO,Färöisch,null
+63,FIJ,Fidschi,null
+64,FIN,Finnisch,null
+65,FRA,Französisch,null
+66,FRY,West-Frisisch,null
+67,FRR,Nord-Frisisch,null
+68,STQ,Saterfriesisch,null
+69,GAG,Gagausisch,null
+70,GIG,Galicisch,null
+71,KAT,Georgisch,null
+72,ELL,Griechisch,null
+73,GRN,Guaraní,null
+74,GUJ,Gujarati,null
+75,HAT,Haitianische,null
+76,HAW,Hawaiisch,null
+77,HBO,Hebräisch,null
+78,HIN,Hindi,null
+79,IND,Indonesisch,null
+80,INH,Inguschisch,null
+81,IKT,Inuinnaqtun,null
+82,IKU,Inuktitut,Inuinnaqtun
+83,GLE,Irisch,null
+84,ISL,Isländisch,null
+85,ITA,Italienisch,null
+86,SAH,Jakutisch,null
+87,JPN,Japanisch,null
+88,YID,Jiddisch,null
+89,YDD,Ost-Jiddisch,null
+90,YIH,West-Jiddisch,null
+91,KBD,Kabardinisch,null
+92,XAL,Kalmückische,null
+93,KAN,Kannada / Kanaresisch,null
+94,KAA,Karakalpakische,null
+95,KRI,Karelisch,null
+96,KAS,Kashmiri,null
+97,KAZ,Kasachisch,null
+98,CAT,Katalanisch,null
+99,KHM,Khmer,null
+100,KIN,Kinyarwanda,null
+101,KIR,Kirgisisch,null
+102,GIL,Kiribati / Gilbertesisch,null
+103,RUN,Kirundi,null
+104,SWA,Kiswahili,null
+105,SWH,Swahili,Kiswahili
+106,SWC,Copperbelt Swahili,Kiswahili
+107,KOM,Komi,null
+108,KPV,Komi-Syrjänisch,null
+109,KOI,Komi-Permjakisch,null
+110,KOK,Konkani,null
+111,GOM,Goa Konkani,Konkani
+112,KNN,Standard Konkani,Konkani
+113,KOR,Koreanisch,null
+114,KUR,Kurdisch,null
+115,LLD,Ladinisch,null
+116,LAO,Lao,null
+117,LAT,Latein,null
+118,LAV,Lettisch,null
+119,LIT,Litauisch,null
+120,LTZ,Luxemburgisch,null
+121,MLG,Malagasy,null
+122,MAI,Maithili,null
+123,MSA,Malaiisch,null
+124,MAL,Malayalam,null
+125,MLT,Maltesische,null
+126,MRI,Maorisch,null
+127,MAR,Marathi,null
+128,CHM,Mari,null
+129,MHR,Ostmari / Wiesenmari,Mari
+130,MRJ,Westmari / Bergmari,Mari
+131,MKD,Mazedonisch,null
+132,MNI,Meitei,null
+133,MON,Mongolisch,null
+134,KHK,Halh Mongolisch,Mongolisch
+135,MYV,Mordwinisch (Ersjanisch),null
+136,MDF,Mordwinisch (Mokschanisch),null
+137,NAU,Nauruisch,null
+138,NDE,isiNdebele,null
+139,NEP,Nepali,null
+140,SGN,Neuseeländische Gebärdensprache,null
+141,NDS,Niederdeutsch,null
+142,NLD,Niederländisch,null
+143,NIU,Niueanisch,null
+144,NSO,Nord-Sotho,null
+145,NOR,Norwegisch,null
+146,NOB,Bokmål,Norwegisch
+147,NNO,Nynorsk,Norwegisch
+148,ORI,Oriya,null
+149,OSS,Ossetisch,null
+150,PAN,Panjabi,null
+151,PUS,Passchtu,null
+152,FAS,Persisch,null
+153,FIL,Pilipino,null
+154,POL,Polnisch,null
+155,POR,Portugisisch,null
+156,QUE,Quechua,null
+157,ROH,Rätoromanisch / Bündnerromanisch,null
+158,RON,Rumänisch / Moldauisch,null
+159,RUS,Russisch,null
+160,RUE,Russinisch,null
+161,SAG,Sango,null
+162,SAN,Sanskrit,null
+163,SAT,Santali,null
+164,SRD,Sardisch,null
+165,GLA,Schottisch-Gälisch,null
+166,SWE,Schwedisch,null
+167,TSN,Setswana,null
+168,HBS,Serbokroatisch,null
+169,HRV,Kroatisch,Serbokroatisch
+170,BOS,Bosnisch,Serbokroatisch
+171,SRP,Serbisch / Montenegrinisch,Serbokroatisch
+172,SOT,Sesotho,null
+173,CPF,Seychellenkreol,null
+174,SND,Sindhi,null
+175,SIN,Singhalesisch,null
+176,SSW,Siswati,null
+177,SLK,Slowakisch,null
+178,SLV,Slowenisch,null
+179,SOM,Somali,null
+180,SPA,Spanisch,null
+181,TGK,Tadschikisch,null
+182,TAM,Tamil,null
+183,TAT,Tatarisch,null
+184,TEL,Telugu,null
+185,TET,Tetum,null
+186,THA,Thailändisch,null
+187,BOD,Tibetisch,null
+188,TIR,Tigrinya,null
+189,TON,Tongaisch,null
+190,CES,Tschechisch,null
+191,CHE,Tschetschenisch,null
+192,TUR,Türkisch,null
+193,TUK,Turkmenisch,null
+194,TVI,Tuvaluisch,null
+195,TYV,Tuwinisch,null
+196,UDM,Udmurtisch,null
+197,UIG,Uigrisch,null
+198,UKR,Ukrainisch / Ruthenisch,null
+199,HUN,Ungarisch,null
+200,URD,Urdu,null
+201,UZB,Usbekisch,null
+202,VEN,Venda / Tshivenda,null
+203,VIE,Vietnamesisch,null
+204,CYM,Walisisch,null
+205,BEL,Weißrussisch / Belarussisch,null
+206,WOL,Wolof (Senegal),null
+207,WOF,Wolof (Gambia),null
+208,XHO,isiXhosa,null
+209,TSO,Xitsonga,null
+210,ZHA,Zhuang,null
+211,ZUL,isiZulu,null
+

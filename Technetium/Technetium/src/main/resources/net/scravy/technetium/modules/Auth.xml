@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE module>
+<module name="Auth">
+	<handlers>
+		<handler path="/login" handler="net.scravy.technetium.modules.auth.Login" />
+		<handler path="/logout" handler="net.scravy.technetium.modules.auth.Logout" />
+		<handler path="/forgot" handler="net.scravy.technetium.modules.auth.Forgot" />
+		<handler path="/start" handler="net.scravy.technetium.modules.auth.Welcome" />
+	</handlers>
+</module>

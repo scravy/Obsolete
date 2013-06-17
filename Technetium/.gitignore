@@ -1,0 +1,12 @@
+.settings
+.project
+target
+.classpath
+.DS_Store
+.metadata
+.svn
+*.properties
+*.log
+*.jar
+.pydevproject
+*.swp

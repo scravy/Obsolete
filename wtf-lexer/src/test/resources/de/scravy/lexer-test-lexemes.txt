@@ -1,0 +1,95 @@
+dot = \.
+digits = [0-9]+
+hexDigit = [a-fA-F0-9]
+hexDigits = <hexDigit>+
+
+name = [\p{Alpha}][\p{Alpha}0-9]*
+nameContinuation = [\p{Alpha}0-9]+
+simpleName = (_ <nameContinuation> | <name>) ([_-] <nameContinuation>)* '*
+
+num = <digits> (_ <digits>)*
+hexNum = <hexDigits> (_ <hexDigits>)*
+binNum = [01]+ (_ [01]+)*
+
+hexGroups = <hexDigits> (: <hexDigits>)*
+shortIp6Addr = <hexGroups>? :: <hexGroups> | <hexGroups> :: <hexGroups>?
+
+Comment = ;;[^\n]*
+
+Semicolon = ;
+Comma = ,
+
+UUID = <hexDigits> (\- <hexDigits>){4}
+
+Ip6addr = <shortIp6Addr> | <hexDigits> (: <hexDigits>){5,}
+Ip4addr = <digits> (\.<digits>){3}
+
+releaseInfo = \- [0-9A-Za-z]+ ([\.-] [0-9A-Za-z]+)*
+buildInfo = \+ [0-9A-Za-z]+ ([\.-] [0-9A-Za-z]+)*
+
+escape =
+    ['"\\abefnrtv0\&\?\$]
+  | u <hexDigit>{4}
+  | x <hexDigit>{2}
+  | \{ <Name> \}
+  
+regexEscape =
+    p \{ <Name> \}
+  | [^\n\t ]
+
+Char = ' ([^'\n\t\\] | \\<escape>) '
+Regex = /([^/\n\t\\ ] | \\ <escape> | \\ <regexEscape>)+/[a-zA-Z0-9]*
+AsciiString = '' ([^'\n\t] | '[^'])* '? ''
+String = "([^"\n\t\\] | \\ <escape>)*"
+Backticks = `([^`\n\t])+`
+
+Version = <digits> (\. <digits>){2} <releaseInfo>? <buildInfo>?
+
+DateTime = <Date> T <Time> (Z | [+-](<digits>(:<digits>)?))
+Time = <digits> : <digits> (: <digits>)? (\. <digits>)?
+Date = <digits> - <digits> - <digits>
+
+Keyword = @<Name>
+
+Float = <num> (e \- <num>) | <num> <dot> <num> (e \-? <num>)?
+
+HexNumber = 0x<hexNum>
+BinNumber = 0b<binNum>
+
+NumberWithBase = <nameContinuation> (_ <nameContinuation>)* @ <num>
+Number = <num> (e <num>)?
+
+protocol = <nameContinuation>
+domainName = [a-zA-Z0-9_-]+ (\. [a-zA-Z0-9_-]+)*
+domain = \[ <Ip6addr> \] | <Ip4addr> | <domainName>
+port = : <digits>
+path = [a-zA-Z0-9\._~,-]+
+
+URL = <protocol> : (//)? <domain> <port>? ((/ <path>)+ | /)
+
+ParenthesisInvocation = <Name> \(
+CurlyBraceInvocation = <Name> \{
+
+OpeningParenthesis = \(
+OpeningCurlyBrace = \{
+OpeningSquareBracket = \[
+
+ClosingParenthesis = \)
+ClosingCurlyBrace = \}
+ClosingSquareBracket = \]
+
+MagicName = __ <Name> __
+
+Name = (<simpleName>:)?<simpleName>
+Label = <simpleName>:
+
+Hole = _
+Ellipsis = \.{3}
+Range = \.{2}
+Dot = \.
+Colon = :
+
+Indent = \u0020*(\n[\u0020]*)+
+Juxta = \u0020+
+
+
